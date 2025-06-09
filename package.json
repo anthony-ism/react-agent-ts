@@ -1,0 +1,26 @@
+{
+  "name": "react-agent",
+  "version": "1.0.0",
+  "description": "This template showcases a [ReAct agent](https://arxiv.org/abs/2210.03629) implemented using [LangGraph.js](https://github.com/langchain-ai/langgraphjs), designed for [LangGraph Studio](https://github.com/langchain-ai/langgraph-studio). ReAct agents are uncomplicated, prototypical agents that can be flexibly extended to many tools.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@langchain/anthropic": "^0.3.21",
+    "@langchain/core": "^0.3.57",
+    "@langchain/langgraph": "^0.3.1",
+    "dotenv": "^16.5.0",
+    "langchain": "^0.3.27"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
